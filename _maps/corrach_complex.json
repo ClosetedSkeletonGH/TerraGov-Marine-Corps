@@ -1,0 +1,10 @@
+{
+    "map_name": "Corrack Complex",
+    "map_path": "map_files/Corrack_Comlpex",
+    "map_file": "CorrackComplex.dmm",
+	"disk_sets": {
+		"basic": 1
+	},
+	"quickbuilds": 1800,
+	"announce_text": ". TGMC, prepare to deploy!"
+}

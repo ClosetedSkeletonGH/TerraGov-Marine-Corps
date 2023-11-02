@@ -5,7 +5,7 @@
 
 /datum/map_config
 	// Metadata
-	var/config_filename = "_maps/LV624.json"
+	var/config_filename = "_maps/corrach_complex.json"
 	var/defaulted = TRUE  // set to FALSE by LoadConfig() succeeding
 	// Config from maps.txt
 	var/config_max_users = 0
@@ -13,9 +13,9 @@
 	var/voteweight = 1
 
 	// Config actually from the JSON - default values
-	var/map_name = "LV624"
-	var/map_path = "map_files/LV624"
-	var/map_file = "LV624.dmm"
+	var/map_name = "Corrack Complex"
+	var/map_path = "map_files/Corrack_Comlpex"
+	var/map_file = "CorrackComplex.dmm"
 
 	var/traits = null
 	var/space_empty_levels = 1

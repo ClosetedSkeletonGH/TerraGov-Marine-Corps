@@ -12,8 +12,14 @@ Format:
 	disabled (disables the map)
 endmap
 
-map lv624
+
+
+map corrach_complex
 	default
+	minplayers 55
+endmap
+
+map lv624
 	minplayers 25
 endmap
 
