@@ -78,6 +78,16 @@
 	resistance_flags = RESIST_ALL
 	icon_state = "wall-invincible"
 
+/turf/closed/mineral/smooth/darkrock
+	icon = 'icons/turf/walls/darkrockwall.dmi'
+	icon_state = "darkrockwall-0"
+	walltype = "darkrockwall"
+	base_icon_state = "darkrockwall"
+
+/turf/closed/mineral/smooth/darkrock/indestructible
+	resistance_flags = RESIST_ALL
+	icon_state = "wall-invincible"
+
 /turf/closed/mineral/smooth/frostwall
 	icon = 'icons/turf/walls/frostwall.dmi'
 	icon_state = "frostwall-0"

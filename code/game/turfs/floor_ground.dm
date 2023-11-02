@@ -174,6 +174,29 @@
 /turf/open/ground/grass/weedable/patch/grassyellow
 	color = "#ffb682"
 
+// Swamp
+
+/turf/open/ground/grass/weedable/dirt //move later
+	name = "swamp dirt"
+	icon_state = "swampdirt1"
+	icon_variants = 8
+	shoefootstep = FOOTSTEP_SAND
+	barefootstep = FOOTSTEP_SAND
+	mediumxenofootstep = FOOTSTEP_SAND
+	smoothing_groups = list(SMOOTH_GROUP_JUNGLE_FLOOR)
+	minimap_color = MINIMAP_DIRT
+
+/turf/open/ground/grass/weedable/cave
+	name = "stone floor"
+	icon = 'icons/turf/cave.dmi'
+	icon_state = "cave_1"
+	icon_variants = 7
+	mediumxenofootstep = FOOTSTEP_CONCRETE
+	barefootstep = FOOTSTEP_CONCRETE
+	shoefootstep = FOOTSTEP_CONCRETE
+	minimap_color = MINIMAP_AREA_COLONY
+
+
 // Big Red
 
 /turf/open/floor/plating/ground/mars
