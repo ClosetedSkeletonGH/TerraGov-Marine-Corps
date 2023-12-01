@@ -39,6 +39,27 @@
 /mob/living/carbon/human/species/vatborn
 	race = "Vatborn"
 
+/mob/living/carbon/human/species/reject/leader
+	race = "Reject Leader"
+
+/mob/living/carbon/human/species/reject/specialist
+	race = "Reject Specialist"
+
+/mob/living/carbon/human/species/reject/medic
+	race = "Reject Medic"
+
+/mob/living/carbon/human/species/reject/grunt1
+	race = "Reject Grunt1"
+
+/mob/living/carbon/human/species/reject/grunt2
+	race = "Reject Grunt2"
+
+/mob/living/carbon/human/species/reject/grunt3
+	race = "Reject Grunt3"
+
+/mob/living/carbon/human/species/reject/grunt4
+	race = "Reject Grunt4"
+
 /mob/living/carbon/human/species/skeleton
 	race = "Skeleton"
 

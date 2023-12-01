@@ -61,6 +61,24 @@ GLOBAL_LIST_EMPTY_TYPED(operation_namepool, /datum/operation_namepool)
 
 	. += "-[rand(1,999)]"
 
+/datum/namepool/reject/grunt/get_random_name()
+	if(prob(85))
+		return . = "[rand(1,999)]" // 85% chance grunts tend go just by their original vat number
+//	if(prob(50))
+//		return . = "CES-" += "[rand(1,999)]" // 7.5% chance of being Close Elite Soldier (reference to CS- vatborns)
+	if(prob(50))
+		return . = pick(SSstrings.get_list_from_file(firstname_male_pool))
+	. = pick(SSstrings.get_list_from_file(firstname_female_pool)) // 7.5% chance the vatborn has picked a random name for themselves
+
+
+/datum/namepool/reject/medic/get_random_name()
+	if(prob(50))
+		return . = "[rand(1,999)]" // 50% chance medics tend go just by their original vat number
+//	. = "CEM-" += "[rand(1,999)]" // 50% chance of being Close Elite Medic (reference to CS- vatborn)
+
+/datum/namepool/reject/leader/get_random_name()
+//	"CEL" += "[rand(1,999)]" // Leaders only go by Clone Elite Leader + number
+
 /datum/namepool/skeleton
 	firstname_male_pool = "names/skeleton"
 	firstname_female_pool = "names/skeleton"

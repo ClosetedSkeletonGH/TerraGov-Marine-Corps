@@ -398,6 +398,23 @@
 /datum/species/human/vatgrown/early/proc/handle_age(mob/living/carbon/human/H)
 	H.set_species("Vat-Grown Human")
 
+/datum/species/human/reject
+	name = "Rejected Vatborn"
+	name_plural = "Rejected Vatborns"
+	icobase = 'icons/mob/human_races/r_rejects.dmi'
+	speech_verb_override = "gargles"
+
+	flesh_color = "#bfa1a1"
+
+/datum/species/human/reject/grunt2
+
+/datum/species/human/reject/grunt3
+
+/datum/species/human/reject/medic
+
+/datum/species/human/reject/specialist
+
+/datum/species/human/reject/leader
 
 /datum/species/robot
 	name = "Combat Robot"
