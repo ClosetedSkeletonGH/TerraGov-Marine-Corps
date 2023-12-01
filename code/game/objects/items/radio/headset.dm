@@ -603,6 +603,11 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	keyslot2 = /obj/item/encryptionkey/mcom
 	frequency = FREQ_PMC
 
+/obj/item/radio/headset/distress/reject
+	name = "reject headset"
+	keyslot = /obj/item/encryptionkey/reject
+	keyslot2 = /obj/item/encryptionkey/mcom
+	frequency = FREQ_REJECT
 
 /obj/item/radio/headset/distress/usl
 	name = "non-standard headset"

@@ -95,6 +95,10 @@ GLOBAL_LIST_EMPTY_TYPED(custom_updating_encryptkeys, /obj/item/encryptionkey)
 	channels = list(RADIO_CHANNEL_PMC = TRUE)
 	independent = TRUE
 
+/obj/item/encryptionkey/reject
+	name = "\improper TerraGov encryption key"
+	channels = list(RADIO_CHANNEL_REJECT = TRUE)
+	independent = TRUE
 
 /obj/item/encryptionkey/usl
 	name = "\improper USL encryption key"

@@ -52,6 +52,7 @@
 
 #define RADIO_CHANNEL_COLONIST "Colonist"
 #define RADIO_CHANNEL_PMC "NT PMC"
+#define RADIO_CHANNEL_REJECT "Rejects"
 #define RADIO_CHANNEL_USL "USL"
 #define RADIO_CHANNEL_DEATHSQUAD "Deathsquad"
 #define RADIO_CHANNEL_IMPERIAL "Imperial"
@@ -75,7 +76,8 @@
 #define FREQ_XRAY 1245
 #define FREQ_WHISKEY 1247
 
-#define MIN_ERT_FREQ 1331
+#define MIN_ERT_FREQ 1329
+#define FREQ_REJECT 1329
 #define FREQ_PMC 1331
 #define FREQ_COLONIST 1335
 #define FREQ_USL 1337
